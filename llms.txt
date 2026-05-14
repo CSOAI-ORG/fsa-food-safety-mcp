@@ -1,0 +1,36 @@
+# fsa-food-safety-mcp
+# UK Food Standards Agency + EU Reg 178/2002 + HACCP + allergen labelling compliance for food producers, retailers, and caterers.
+
+## Install
+```bash
+pip install fsa-food-safety-mcp
+```
+
+## Auth & Rate Limits
+- Free tier: 10 calls/day. No API key required.
+- Pro tier (£79/mo): unlimited + signed attestations.
+- Enterprise (£1,499/mo): white-label + on-premise.
+
+## Tools (5)
+
+### `classify_food_business(query, api_key)`
+Determine FSA registration tier (low/medium/high risk)
+
+### `haccp_audit(query, api_key)`
+HACCP 7 principles + 12 steps compliance check
+
+### `allergen_labelling_check(query, api_key)`
+EU Reg 1169/2011 + Natasha's Law allergen disclosure
+
+### `traceability_one_up_one_down(query, api_key)`
+EU Reg 178/2002 Article 18 traceability
+
+### `recall_procedure_template(query, api_key)`
+Food recall + withdrawal procedure generator
+
+## Pairs with
+- `meok-attestation-api` — HMAC signing for compliance certs
+- `meok-attestation-verify` — public verification
+
+## Maintainer
+MEOK AI Labs · hello@meok.ai · https://meok.ai · MIT

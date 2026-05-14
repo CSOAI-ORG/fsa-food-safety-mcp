@@ -1,0 +1,13 @@
+# Food Safety Compliance (UK FSA + EU) MCP - Auto-trigger Rules
+
+When the user asks about food safety, FSA, HACCP, allergens, Natasha's Law, food labelling, traceability, use fsa-food-safety-mcp tools:
+
+- **classify_food_business**: Determine FSA registration tier (low/medium/high risk)
+- **haccp_audit**: HACCP 7 principles + 12 steps compliance check
+- **allergen_labelling_check**: EU Reg 1169/2011 + Natasha's Law allergen disclosure
+- **traceability_one_up_one_down**: EU Reg 178/2002 Article 18 traceability
+- **recall_procedure_template**: Food recall + withdrawal procedure generator
+
+Install: `pip install fsa-food-safety-mcp`
+
+By MEOK AI Labs — industry governance MCP. Pairs with meok-attestation-api for signed compliance certs.

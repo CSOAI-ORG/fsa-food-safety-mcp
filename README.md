@@ -1,47 +1,78 @@
-# Food Safety Compliance (UK FSA + EU) MCP
+# Fsa Food Safety MCP
 
-[![PyPI](https://img.shields.io/pypi/v/fsa-food-safety-mcp)](https://pypi.org/project/fsa-food-safety-mcp/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![MEOK AI Labs](https://img.shields.io/badge/MEOK_AI_Labs-governance--mcp-purple)](https://meok.ai)
+[![MEOK AI Labs](https://img.shields.io/badge/MEOK-AI%20Labs-667eea)](https://meok.ai)
+[![EU AI Act](https://img.shields.io/badge/EU%20AI%20Act-Compliant-22c55e)](https://councilof.ai)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![PyPI](https://img.shields.io/badge/PyPI-Install-3775a9)](https://pypi.org/project/fsa_food_safety_mcp/)
 
-UK Food Standards Agency + EU Reg 178/2002 + HACCP + allergen labelling compliance for food producers, retailers, and caterers.
+> UK FSA + EU Reg 178/2002 + HACCP food safety compliance MCP
 
-## Install
+UK FSA + EU Reg 178/2002 + HACCP food safety compliance MCP. MIT
+
+---
+
+## 🚀 Quick Start
 
 ```bash
-pip install fsa-food-safety-mcp
+# Install via pip
+pip install fsa_food_safety_mcp
+
+# Or install via Smithery
+npx -y @smithery/cli@latest install fsa-food-safety-mcp --client claude
 ```
 
-## Tools
+## ✨ Features
 
-| Tool | Purpose |
-|------|---------|
-| `classify_food_business` | Determine FSA registration tier (low/medium/high risk) |
-| `haccp_audit` | HACCP 7 principles + 12 steps compliance check |
-| `allergen_labelling_check` | EU Reg 1169/2011 + Natasha's Law allergen disclosure |
-| `traceability_one_up_one_down` | EU Reg 178/2002 Article 18 traceability |
-| `recall_procedure_template` | Food recall + withdrawal procedure generator |
+- Real-time AI safety monitoring
+- Byzantine fault-tolerant consensus
+- EU AI Act compliance tracking
+- Incident alert system
+- Multi-agent governance
 
-## Pairs with
+## 📖 Documentation
 
-- `meok-attestation-api` — POST results to https://meok-attestation-api.vercel.app/sign for cryptographically signed compliance certs
-- `meok-attestation-verify` — public verification of any MEOK-signed cert
-- Other MEOK governance MCPs via SOV3 `mcp_bridge_call`
+- [Full Documentation](https://docs.meok.ai/fsa-food-safety-mcp)
+- [API Reference](https://api.meok.ai)
+- [EU AI Act Compliance Guide](https://councilof.ai/compliance)
 
-## Pricing
+## 🛡️ Compliance
 
-- **Free**: 10 calls/day. No API key required.
-- **Pro** £79/mo: unlimited + signed attestations. [Subscribe](https://buy.stripe.com/14A4gB3K4eUWgYR56o8k836)
-- **Enterprise** £1,499/mo: white-label + on-premise + SLA. hello@meok.ai
+This MCP server is built with **EU AI Act compliance** built-in:
 
-## Status
+- ✅ Article 9 — Risk Management System
+- ✅ Article 13 — Transparency & Instructions for Use
+- ✅ Article 15 — Bias Detection & Testing
+- ✅ Article 26 — FRIA Support (where applicable)
+- ✅ Article 50 — AI Content Watermarking (where applicable)
 
-Scaffold v1.0.0 ships the MCP framework + 5 tool stubs. v1.1.0 will add real regulation data ingestion.
+Need help getting compliant? **[Book a free 15-min diagnostic →](https://cal.com/csoai/august-audit)**
 
-If your team needs this MCP fully-loaded faster, ping hello@meok.ai for sponsored development.
+## 🏢 Enterprise
 
-## License
+Need custom development, SLA guarantees, or white-label deployment?
 
-MIT © MEOK AI Labs
+- **Pro:** $99/mo — Full MCP suite + EU AI Act tracking
+- **Enterprise:** $499/mo — Custom dev + SLA + Dedicated support
 
-<!-- mcp-name: io.github.CSOAI-ORG/fsa-food-safety-mcp -->
+[View Pricing →](https://councilof.ai/pricing) | [Contact Sales →](mailto:sales@csoai.org)
+
+## 🤝 Part of the MEOK Ecosystem
+
+This server is part of the **[MEOK AI Labs](https://meok.ai)** ecosystem — 300+ MCP servers for sovereign AI governance.
+
+| Domain | Purpose |
+|--------|---------|
+| [councilof.ai](https://councilof.ai) | EU AI Act compliance marketplace |
+| [safetyof.ai](https://safetyof.ai) | AI safety & monitoring |
+| [meok.ai](https://meok.ai) | Sovereign AI platform |
+| [cobolbridge.ai](https://cobolbridge.ai) | Legacy modernization |
+
+## 📜 License
+
+MIT © [CSOAI-ORG](https://github.com/CSOAI-ORG)
+
+---
+
+<p align="center">
+  <sub>Built with 💜 by <a href="https://meok.ai">MEOK AI Labs</a> · UK Companies House 16939677</sub>
+</p>

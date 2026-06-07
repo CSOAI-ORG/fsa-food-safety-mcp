@@ -1,0 +1,25 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "fsa-food-safety-mcp",
+    "description": "UK Food Standards Agency + EU Reg 178/2002 + HACCP + allergen labelling compliance for food prod...",
+    "version": "1.0.0",
+    "provider": "MEOK AI Labs",
+    "interfaces": [
+      {
+        "type": "mcp",
+        "transport": "stdio",
+        "package": "fsa-food-safety-mcp"
+      }
+    ],
+    "capabilities": [
+      "classify_food_business",
+      "haccp_audit",
+      "allergen_labelling_check",
+      "traceability_one_up_one_down",
+      "recall_procedure_template",
+      "search_regulation",
+      "list_regulations_in_db"
+    ]
+  }
+}

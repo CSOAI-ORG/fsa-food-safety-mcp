@@ -1,4 +1,6 @@
 <!-- mcp-name: io.github.CSOAI-ORG/fsa-food-safety-mcp -->
+[![MCP Scorecard: 88/100](https://img.shields.io/badge/proofof.ai-88%2F100-5b21b6)](https://proofof.ai/scorecard/fsa-food-safety-mcp.html)
+
 # Fsa Food Safety MCP
 
 [![MEOK AI Labs](https://img.shields.io/badge/MEOK-AI%20Labs-667eea)](https://meok.ai)

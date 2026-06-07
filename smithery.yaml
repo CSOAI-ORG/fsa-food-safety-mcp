@@ -1,0 +1,32 @@
+name: fsa-food-safety-mcp
+description: 'UK Food Standards Agency + EU Reg 178/2002 + HACCP + allergen labelling compliance for food prod...'
+version: 1.0.0
+author: MEOK AI Labs
+homepage: https://proofof.ai
+repository: https://github.com/CSOAI-ORG/fsa-food-safety-mcp
+license: MIT
+categories:
+- compliance
+- governance
+tools:
+- name: classify_food_business
+  description: classify food business
+- name: haccp_audit
+  description: haccp audit
+- name: allergen_labelling_check
+  description: allergen labelling check
+- name: traceability_one_up_one_down
+  description: traceability one up one down
+- name: recall_procedure_template
+  description: recall procedure template
+- name: search_regulation
+  description: search regulation
+- name: list_regulations_in_db
+  description: list regulations in db
+build:
+  type: python
+  entrypoint: server.py
+  dependencies:
+  - mcp>=1.0.0
+runtime:
+  python: '>=3.10'

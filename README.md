@@ -76,3 +76,28 @@ MIT © [CSOAI-ORG](https://github.com/CSOAI-ORG)
 <p align="center">
   <sub>Built with 💜 by <a href="https://meok.ai">MEOK AI Labs</a> · UK Companies House 16939677</sub>
 </p>
+
+
+## Configuration
+
+Add to your `claude_desktop_config.json` (Claude Desktop) or your MCP client config:
+
+```json
+{
+  "mcpServers": {
+    "fsa-food-safety-mcp": {
+      "command": "uvx",
+      "args": ["fsa-food-safety-mcp"]
+    }
+  }
+}
+```
+
+Or: `pip install fsa-food-safety-mcp` then run the `fsa-food-safety-mcp` command (stdio transport).
+
+## Examples
+
+Once configured, ask your assistant, for example:
+- "Use `classify_food_business` to …"
+- "Use `haccp_audit` to …"
+- "Use `allergen_labelling_check` to …"

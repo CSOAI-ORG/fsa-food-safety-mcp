@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "fsa-food-safety-mcp"
-version = "1.0.0"
+version = "1.0.8"
 description = "UK Food Standards Agency + EU Reg 178/2002 + HACCP + allergen labelling compliance for food producers, retailers, and caterers."
 license = {file = "LICENSE"}
 requires-python = ">=3.10"

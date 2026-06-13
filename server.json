@@ -4,9 +4,8 @@
   "version": "1.0.9",
   "description": "UK Food Standards Agency + EU Reg 178/2002 + HACCP + allergen labelling compliance for food prod...",
   "repository": {
-    "type": "git",
     "url": "https://github.com/CSOAI-ORG/fsa-food-safety-mcp",
-    "source": "https://github.com/CSOAI-ORG/fsa-food-safety-mcp"
+    "source": "github"
   },
   "packages": [
     {

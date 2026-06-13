@@ -8,3 +8,6 @@ dist/fsa_food_safety_mcp-1.0.9.tar.gz
 
 # Auto-added during alignment sweep
 __pycache__/server.cpython-311.pyc
+
+# Auto-added during alignment sweep
+*.pyc

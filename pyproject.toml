@@ -16,7 +16,7 @@ classifiers = [
     "Operating System :: OS Independent",
     "Topic :: Software Development :: Libraries",
 ]
-dependencies = ["mcp>=1.0.0"]
+dependencies = ["mcp>=2.0.0"]
 
 [project.urls]
 Homepage = "https://meok.ai"
@@ -24,7 +24,7 @@ Repository = "https://github.com/meok-ai-labs/fsa-food-safety-mcp"
 
 [tool.hatch.build.targets.wheel]
 packages = ["."]
-only-include = ["server.py"]
+only-include = ["server.py", "mcp2026_shim.py"]
 
 [project.scripts]
 fsa-food-safety-mcp = "server:main"
